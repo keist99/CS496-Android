@@ -1,13 +1,13 @@
-# 안드로이드 RecyclerView 연습용 어플리케이션
+# 안드로이드 생활 어플리케이션
 
-![Language][language-java]
-![Platform][platform-android]
+![language-java][language-java]
+![platform-android][platform-android]
 <br>
-![Participants][participants-duo]
+![participants-duo][participants-duo]
 <br>
-[![School Project][kaist-image]][kaist-cs-url]
-![Course][course-cs496]
-![Grade][grade-p]
+[![institution-kaist][kaist-image]][kaist-cs-url]
+[![course-immersion-camp][course-cs496]][course-cs496-url]
+![grade-p][grade-p]
 
 > 로컬 연락처와 사진의 추가, 수정, 삭제 기능을 제공하고 내 주변 반경 500m 이내의 맛집 정보를 구글 지도에 핀으로 표시해서 보여주는 어플리케이션입니다.
 
@@ -26,7 +26,8 @@
 <!-- Image definitions -->
 [kaist-image]: https://img.shields.io/badge/Institution-KAIST-blue
 [kaist-cs-url]: https://cs.kaist.ac.kr
-[course-cs496]: https://img.shields.io/badge/Course-Immersion%20Camp%3A%20Intensive%20Programming%20and%20Startup-brightgreen
+[course-cs496]: https://img.shields.io/badge/Course-Immersion%20Camp-brightgreen
+[course-cs496-url]: https://madcamp.io
 [language-java]: https://img.shields.io/badge/Language-Java-orange
 [platform-android]: https://img.shields.io/badge/Platform-Android-yellowgreen
 [grade-p]: https://img.shields.io/badge/Grade-P-yellow
