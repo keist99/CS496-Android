@@ -1,4 +1,4 @@
-# 안드로이드 생활 어플리케이션
+# 안드로이드 Serverless 생활 어플리케이션
 
 ![language-java][language-java]
 ![platform-android][platform-android]
