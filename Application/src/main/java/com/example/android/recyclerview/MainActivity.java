@@ -648,17 +648,17 @@ public class MainActivity extends SampleActivityBase implements OnMapReadyCallba
 
     public void showPlaceInformation(LatLng location)
     {
-        mGoogleMap.clear();//지도 클리어
+        mGoogleMap.clear(); // 지도 클리어
 
         if (previous_marker != null)
-            previous_marker.clear();//지역정보 마커 클리어
+            previous_marker.clear(); // 지역정보 마커 클리어
 
         new NRPlaces.Builder()
                 .listener(MainActivity.this)
-                .key("AIzaSyAnzmPhIep7W9sbXRJrMuHolUM0SQ-7vrs")
-                .latlng(location.latitude, location.longitude)//현재 위치
-                .radius(500) //500 미터 내에서 검색
-                .type(PlaceType.RESTAURANT) //음식점
+                .key(/* Google Cloud Platform API Key here */)
+                .latlng(location.latitude, location.longitude) // 현재 위치
+                .radius(500) // 500 미터 내에서 검색
+                .type(PlaceType.RESTAURANT) // 음식점
                 .build()
                 .execute();
     }
